@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistente de Turnos IA</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="contenedor">
+
+        <header>
+            <h1>📅 Asistente de Turnos IA</h1>
+            <p>Consulta horarios disponibles, agenda o cancela tu cita al instante.</p>
+        </header>
+
+        <section id="chat" class="chat">
+
+            <div class="mensaje bot">
+                ¡Hola! 👋 Soy tu asistente virtual de turnos.<br><br>
+                Puedo ayudarte a consultar horarios libres (de 09:00 a 18:00 hs), reservar una nueva cita o cancelar un turno existente. ¿En qué te ayudo hoy?
+            </div>
+
+        </section>
+
+        <form id="chatForm" class="entrada">
+
+            <input
+                type="text"
+                id="pregunta"
+                placeholder="Ej: ¿Qué turnos hay libres mañana? o Quiero agendar..."
+                autocomplete="off"
+                required>
+
+            <button type="submit">
+                Enviar
+            </button>
+
+        </form>
+
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
